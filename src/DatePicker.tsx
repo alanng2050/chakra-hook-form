@@ -1,7 +1,7 @@
 import { BoxProps, FormControl, FormLabel, Text } from '@chakra-ui/react'
 import { ChakraDatePicker } from '@tinychange/chakra-datepicker'
 
-export const CustomDatePicker = ({
+export const DatePicker = ({
   label,
   err,
   id,
