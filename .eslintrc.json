@@ -13,7 +13,6 @@
   "rules": {
     "no-console": "warn",
     "@typescript-eslint/no-explicit-any": "warn",
-    "no-duplicate-imports": "error",
     "import/order": "warn"
   },
   "settings": {
