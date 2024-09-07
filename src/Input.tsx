@@ -4,6 +4,7 @@ import {
   Text,
   FormLabel,
   InputGroup,
+  InputRightElement,
 } from '@chakra-ui/react'
 
 export function Input({
@@ -24,7 +25,7 @@ export function Input({
       {label && <FormLabel>{label}</FormLabel>}
       <InputGroup>
         <CInput variant="outline" {...inputProps} />
-        {rightIcon}
+        {rightIcon && <InputRightElement>{rightIcon}</InputRightElement>}
       </InputGroup>
       {err && <Text variant="error">{err}</Text>}
     </FormControl>
