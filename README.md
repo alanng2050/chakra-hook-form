@@ -20,7 +20,14 @@ export const styles = {
 
     const { register } = useForm()
 
-    <Form>
-    	<Input label="name" inputProps={register('name')} />
-    	// ...
-    </Form>
+    <Input label="name" inputProps={register('name')} />
+    // ...
+
+Inject default theme
+
+```javascript
+// Inject style for Datepicker
+import { defaultTheme } from '@tinychange/chakra-hook-form'
+
+export const theme = extendTheme(defaultTheme, yourCustomTheme)
+```

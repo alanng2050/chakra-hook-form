@@ -1,6 +1,4 @@
-import { extendTheme } from '@chakra-ui/react'
-
-export const defaultTheme = extendTheme({
+export const defaultTheme = {
   components: {
     Text: {
       variants: {
@@ -13,4 +11,4 @@ export const defaultTheme = extendTheme({
       },
     },
   },
-})
+}
